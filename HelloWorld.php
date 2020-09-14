@@ -19,7 +19,9 @@ class HelloWorld
         return "Hello $what";
     }
 
-
+/*
+ * This is an funciton block
+ */
     public function what()
     {
         $sql = "SELECT what FROM hello";
