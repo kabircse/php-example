@@ -12,6 +12,10 @@ class HelloWorld
         $this->pdo = $pdo;
     }
 
+/*
+ * This is an funciton block for hello
+ */
+
     public function hello($what = 'World')
     {
         $sql = "INSERT INTO hello VALUES (" . $this->pdo->quote($what) . ")";
@@ -20,7 +24,7 @@ class HelloWorld
     }
 
 /*
- * This is an funciton block
+ * This is an funciton block for what
  */
     public function what()
     {
